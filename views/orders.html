@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<form action="/orders" method="post"> 
+    <div class="caption">Enter order information</div>
+    <input type="text" placeholder="Order ID" name="id" <%=orders[i].ID; %>
+    <input type="text" placeholder="Customer name" name="name" <%=orders[i].gender; %>
+    <input type="text" placeholder="Coffee type" name="type" <%=orders[i].type; %>
+    <input type="text" placeholder="Ground type" name="ground" <%=orders[i].ground; %>
+    <input type="text" placeholder="Bag size" name="bag" <%=orders[i].bag; %>
+    <input type="text" placeholder="Quantity" name="quantity" <%=orders[i].quantity; %>
+    <button type="submit">Submit</button>
+</form>
+
+</html>
